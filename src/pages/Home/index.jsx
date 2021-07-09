@@ -3,11 +3,11 @@ import TextField, { Input } from '@material/react-text-field';
 import MaterialIcon from '@material/react-material-icon';
 
 import logo from '../../assets/logo.svg';
-import restaurante from '../../assets/restaurante-fake.png';
+// import restaurante from '../../assets/restaurante-fake.png';
 
 import { Card, RestaurantCard, Modal, Map } from '../../components';
 
-import { Container, Search, Wrapper, CaroulselTitle, Carousel } from './styles';
+import { Container, Search, Wrapper, CarouselTitle, Carousel } from './styles';
 import { useSelector } from 'react-redux';
 
 export const Home = () => {
@@ -20,9 +20,10 @@ export const Home = () => {
 		dots: false,
 		infinite: true,
 		speed: 300,
+		autoplay: true,
 		slidesToShow: 4,
 		slidesToScroll: 4,
-		adaptativeHeight: true,
+		adaptativeHeight: false,
 	};
 
 	function handleKeyPress(event){
@@ -47,12 +48,12 @@ export const Home = () => {
 						trailingIcon={<MaterialIcon role="button" icon="search" />}>
 						<Input value={inputValue} onKeyPress={handleKeyPress} onChange={handleInputChange} />
 					</TextField>
-					<CaroulselTitle>Na sua Área</CaroulselTitle>
+					<CarouselTitle>Na sua Área</CarouselTitle>
 					<Carousel {...settings}>
 						{restaurants.map((restaurant) => 
 						<Card 
 						key={restaurant.place_id}
-						photo={restaurant.photos ? restaurant.photos[0].getUrl() : `Foto do ${restaurante.name}`} 
+						photo={restaurant.photos ? restaurant.photos[0].getUrl() : `Foto do ${restaurant.name}`} 
 						title={restaurant.name}
 						/>)}
 					</Carousel>
