@@ -27,6 +27,7 @@ export const Search = styled.section`
 	> img {
 		height: 60px;
 		padding-bottom: 10px;
+		cursor: pointer;
 	}
 `;
 
