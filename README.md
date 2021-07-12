@@ -1,8 +1,24 @@
-## Projeto Restaurant Search
+<h2 align="center"> Projeto Restaurant Search<h2>
 
-##### Desenvolvido para estudo de conceitos pelo bootcamp da Digital Inovation One.
+<div align="center">
+<img width="300" src="./src/assets/logo.svg">
+</div>
 
-###### Baseado nas video-aulas do Expert <a href="https://www.linkedin.com/in/patricknarciso/">Patrick Narciso</a>.
+<h5 align="center">Desenvolvido para estudo de conceitos pelo bootcamp da Digital Inovation One.
+
+</h5>
+<div align="center">
+<text 
+style="font-size:15px">
+Aplicação que mapeia através do Google API os restaurantes mais próximos de acordo com localização
+</text>
+</div>
+
+<br/>
+<br/>
+<br/>
+
+###### Baseado nas video-aulas do Expert <a href="https://www.linkedin.com/in/patricknarciso/">Patrick Narciso</a> na plataforma <a href="https://digitalinnovation.one">Digital Innovation One</a>.
 
 
 * ReactJS
