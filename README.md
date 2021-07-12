@@ -9,6 +9,12 @@
 * styled-components
 * Google Maps API Clound Services
 
+![Home](https://user-images.githubusercontent.com/73358599/125278515-39358c00-e2e9-11eb-96f8-6934eeea2f4a.jpg)
+
+![Modal-aberto](https://user-images.githubusercontent.com/73358599/125278805-8d407080-e2e9-11eb-8818-97175a1f28ec.jpg)
+
+![Modal-fechado](https://user-images.githubusercontent.com/73358599/125278831-93cee800-e2e9-11eb-99c9-9038970fc4b1.jpg)
+
 
 
 
