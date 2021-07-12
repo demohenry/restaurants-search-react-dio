@@ -9,7 +9,7 @@ export const Restaurant = styled.div`
 	background-color: #ffffff;
 	border-left: 5px solid transparent;
 
-	:hover{
+	:hover {
 		background-color: ${(props) => props.theme.colors.background};
 		border-left-color: ${(props) => props.theme.colors.primary};
 		transition: 0.9s;
@@ -40,9 +40,9 @@ export const Address = styled.span`
 `;
 
 export const RestaurantPhoto = styled.img`
+	display: ${(props) => (props.imageLoaded ? 'block' : 'none')};
 	width: 100px;
 	height: 100px;
 	object-fit: cover;
 	border-radius: 6px;
-`
-
+`;
