@@ -12,7 +12,13 @@
 style="font-size:15px">
 Aplicação que mapeia através do Google API os restaurantes mais próximos de acordo com localização
 </text>
+<br/>
+<br/>
+<br/>
+<h6>Deploy realizado com Netlify</h6>
+<a href="https://restaurant-the-finder-dhenry.netlify.app/">restaurant-the-finder-dhenry.netlify.app</a>
 </div>
+
 
 <br/>
 <br/>
