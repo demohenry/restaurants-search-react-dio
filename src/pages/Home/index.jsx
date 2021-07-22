@@ -1,7 +1,11 @@
+/* eslint-disable react/jsx-indent-props */
+/* eslint-disable camelcase */
+/* eslint-disable react/jsx-indent */
 import React, { useState } from 'react';
 import TextField, { Input } from '@material/react-text-field';
 import MaterialIcon from '@material/react-material-icon';
 
+import { useSelector } from 'react-redux';
 import logo from '../../assets/logo.svg';
 // import restaurante from '../../assets/restaurante-fake.png';
 
@@ -16,7 +20,6 @@ import {
 	ModalTitle,
 	ModalContent,
 } from './styles';
-import { useSelector } from 'react-redux';
 
 export const Home = () => {
 	const [inputValue, setInputValue] = useState('');
@@ -51,7 +54,7 @@ export const Home = () => {
 		setModalOpened(true);
 	}
 
-	let isOpen = restaurantSelected?.opening_hours?.open_now;
+	const isOpen = restaurantSelected?.opening_hours?.open_now;
 
 	return (
 		<Wrapper>
